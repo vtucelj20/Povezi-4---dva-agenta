@@ -1,0 +1,17 @@
+Upute za pokretanje igre Poveži 4
+
+1. Otvoriti dva zasebna terminala i posložiti ih jedan do drugoga
+
+2. U svakom terminalu izvršiti nredbu conda activate
+
+3. U prvom terminalu pokreće se CRVENI:
+	1. opcija --> želim uključiti i provjeru potencijalne pobjede žutog u sljedećem koraku
+		python3 Connect4.py --vrsta c -pps da -jid crveni@localhost -pwd tajna
+
+	2.opcija --> bez provjere pobjede žutog, gledam samo svoj sljedeći najbolji korak
+		python3 Connect4.py --vrsta c -jid crveni@localhost -pwd tajna
+
+4. U drugom terminalu pokreće se ŽUTI:
+		python3 Connect4.py -v z -s crveni@localhost -jid zuti@localhost -pwd tajna
+
+
