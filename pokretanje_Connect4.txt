@@ -1,5 +1,7 @@
 Upute za pokretanje igre Poveži 4
 
+POTREBNO: virtualno radno okruženje pripremljeno za laboratorijske vježbe
+
 1. Otvoriti dva zasebna terminala i posložiti ih jedan do drugoga
 
 2. U svakom terminalu izvršiti naredbu conda activate
